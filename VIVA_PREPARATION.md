@@ -16,16 +16,16 @@ It can store many frontier nodes and use more memory, especially for wide graphs
 It prevents the algorithm from repeatedly exploring the same nodes and helps prevent infinite traversal in cyclic graphs.
 
 ## 6. What did SLE-2 profiling show?
-Answer with the actual measurements in your SLE-2 report: runtime and nodes expanded for BFS and DFS. Do not quote values until you have checked the report.
+The previously reported measurements were: BFS expanded 15 nodes with average runtime 0.011774 ms; DFS expanded 23 nodes with average runtime 0.008656 ms. Verify these values against the original profiling output before submission.
 
-## 7. What is the purpose of C4 diagrams?
+## 7. Why did DFS have lower runtime despite expanding more nodes?
+Runtime can be affected by implementation overhead, traversal order, and measurement noise. One run does not establish a general speed advantage.
+
+## 8. What is the purpose of C4 diagrams?
 C4 diagrams describe software architecture at different levels, from system context down to containers, components, and code-level structure.
 
-## 8. How does modular design help?
+## 9. How does modular design help?
 Separating graph/input handling, search logic, and output makes each responsibility easier to test and maintain.
-
-## 9. What happens when the graph becomes larger?
-BFS may require much more memory because its frontier can become wide. Runtime depends on the number of vertices and edges.
 
 ## 10. What did AI contribute?
 State honestly which parts AI helped draft or explain and which parts you implemented, tested, measured, and verified yourself.
