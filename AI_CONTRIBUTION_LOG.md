@@ -3,40 +3,40 @@
 **Student:** Rutuja Patil  
 **PRN:** 25UAM050  
 **Course:** 02AML204 – Introduction to Artificial Intelligence  
+**Division:** A  
 **Repository:** https://github.com/rutujapatil2309-tech/IAI_SLE4
 
 ## Purpose
-This log records AI assistance that may have supported preparation of the SLE-4 architecture decision and viva materials. Review and edit it so it truthfully reflects the work and tools actually used.
+This log records the ways AI assistance contributed to organising and explaining the SLE-4 documentation. The student should review it and edit any statement that does not match the work and tools actually used.
 
 ## Contribution record
 
-| Activity | AI assistance | Student responsibility / verification |
+| Activity | AI assistance | Student responsibility and verification |
 |---|---|---|
-| ADR organisation | Helped structure context, decision, alternatives, rationale, and consequences | Verify that the decision matches the actual project |
-| Search algorithm explanation | Helped summarise BFS, DFS, Uniform-Cost Search, and A* trade-offs | Check the claims and explain them independently |
-| SLE journey summary | Helped organise links between SLE-1, SLE-2, SLE-3, and SLE-4 | Verify against the corresponding repositories and submissions |
-| Viva preparation | Helped draft practice questions and concise answers | Practise and explain the implementation independently |
-| Documentation | Helped draft and organise report and README wording | Check formatting, repository links, division, and submission requirements |
+| ADR structure | Helped organise context, decision, alternatives, rationale, and consequences | Confirm that the decision matches the project and assignment guideline |
+| Algorithm concepts | Helped explain BFS, DFS, Uniform-Cost Search, and A* trade-offs | Check claims against course material and explain them independently |
+| Profiling summary | Helped format and interpret the previously reported SLE-2 results | Verify values against the original profiling output |
+| SLE journey | Helped organise the relationship between SLE-1, SLE-2, SLE-3, and SLE-4 | Confirm repository links and architecture details |
+| Viva preparation | Helped draft practice questions and concise answers | Practise and answer in own words |
+| README and report | Helped improve structure and readability | Check formatting, division, links, and submission naming rules |
 
-## Profiling evidence
-Enter values only after checking the actual SLE-2 profiling report:
+## Profiling evidence recorded
+The previously discussed SLE-2 values are recorded here:
 
-- BFS runtime: **[enter measured value]**
-- DFS runtime: **[enter measured value]**
-- BFS nodes expanded: **[enter measured value]**
-- DFS nodes expanded: **[enter measured value]**
+- BFS nodes expanded: **15**
+- DFS nodes expanded: **23**
+- BFS average runtime: **0.011774 ms**
+- DFS average runtime: **0.008656 ms**
 
-Do not use estimated or fabricated measurements.
+These are reported values from the prior project discussion. Check them against the original profiling output before final submission and retain that output as evidence. Do not describe them as independently re-measured during this documentation update.
 
 ## Verification checklist
 - [ ] I reviewed AI-assisted content and corrected inaccuracies.
-- [ ] I verified algorithm claims against the implementation.
-- [ ] I copied profiling values from actual SLE-2 results.
+- [ ] I verified algorithm claims against my implementation.
+- [ ] I checked the profiling values against the original SLE-2 evidence.
 - [ ] I checked the SLE-3 C4 diagrams and architecture description.
 - [ ] I can explain and defend the decision during the viva.
-- [ ] This log truthfully describes the AI assistance I used.
+- [ ] This log truthfully describes the AI assistance actually used.
 
 ## Reflection
-AI can help organise explanations and documentation, but it does not replace implementation, measurement, or understanding. The student remains responsible for correctness and the final submission.
-
-**Update this log before submission to ensure it is accurate and complete.**
+AI can help organise explanations and documentation, but it does not replace implementation, measurement, or understanding. The student is responsible for the accuracy of the final submission and should be able to defend the decision independently.
