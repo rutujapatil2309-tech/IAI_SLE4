@@ -13,8 +13,9 @@ SLE-4 consolidates earlier work into an Architecture Decision Record (ADR). It e
 - [ADR.md](ADR.md) — Parts A–D: decision, SLE journey, AI contribution note, and viva preparation.
 - [AI_CONTRIBUTION_LOG.md](AI_CONTRIBUTION_LOG.md) — AI assistance and student verification checklist.
 - [VIVA_PREPARATION.md](VIVA_PREPARATION.md) — concise viva questions and answers.
-- [SLE4_25UAM050_Rutuja_Patil.docx](SLE4_25UAM050_Rutuja_Patil.docx) — four-page editable Word report, provided as a separate download where available.
 - [SLE4_REPORT.md](SLE4_REPORT.md) — report text in Markdown format.
+
+The editable four-page Word report, **SLE4_25UAM050_Rutuja_Patil.docx**, is supplied separately as a download.
 
 ## Main architecture decision
 BFS is selected for shortest-path search in an unweighted graph because it explores nodes level by level and finds a path with the fewest edges. DFS remains useful as a comparison, but does not guarantee the shortest path.
